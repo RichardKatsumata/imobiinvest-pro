@@ -1,0 +1,472 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   IMOBIINVEST PRO — INSTITUTIONAL REAL ESTATE ANALYTICS
+   Corporate & Quantitative Platform Stylesheet
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+    --bg-primary: #0A0E17;
+    --bg-secondary: #0F1623;
+    --bg-surface: #131C2E;
+    --bg-elevated: #182338;
+    --border-subtle: #1E293B;
+    --border-focus: #334155;
+    --border-gold: rgba(197, 160, 89, 0.45);
+    --text-primary: #F8FAFC;
+    --text-secondary: #94A3B8;
+    --text-muted: #64748B;
+    --accent-gold: #C5A059;
+    --accent-gold-light: #D4B475;
+    --accent-blue: #3B82F6;
+    --status-pos: #10B981;
+    --status-neg: #EF4444;
+    --status-warn: #F59E0B;
+    --radius-sm: 3px;
+    --radius-md: 4px;
+    --transition-fast: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ── Global Typography & Container ────────────────────────────────────────── */
+html, body, [class*="css"] {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+}
+
+[data-testid="stAppViewContainer"] {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+[data-testid="stHeader"] {
+    background-color: rgba(10, 14, 23, 0.85) !important;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.block-container {
+    padding-top: 2.25rem !important;
+    padding-bottom: 3.5rem !important;
+    max-width: 1440px !important;
+}
+
+/* ── Sidebar ──────────────────────────────────────────────────────────────── */
+[data-testid="stSidebar"] {
+    background-color: #080B12 !important;
+    border-right: 1px solid var(--border-subtle) !important;
+}
+
+[data-testid="stSidebarNav"] {
+    padding-top: 0.75rem !important;
+    border-bottom: 1px solid var(--border-subtle);
+    padding-bottom: 0.75rem !important;
+}
+
+[data-testid="stSidebarNav"] ul li a {
+    border-radius: var(--radius-sm) !important;
+    margin: 2px 8px !important;
+    padding: 0.45rem 0.75rem !important;
+    transition: background-color var(--transition-fast), border-color var(--transition-fast);
+    border-left: 2px solid transparent;
+}
+
+[data-testid="stSidebarNav"] ul li a:hover {
+    background-color: var(--bg-secondary) !important;
+    border-left: 2px solid var(--border-focus);
+}
+
+[data-testid="stSidebarNav"] ul li a[aria-current="page"] {
+    background-color: var(--bg-surface) !important;
+    border-left: 2px solid var(--accent-gold) !important;
+}
+
+[data-testid="stSidebarNav"] ul li a span {
+    font-size: 0.82rem !important;
+    font-weight: 500 !important;
+    letter-spacing: 0.01em;
+    color: var(--text-secondary) !important;
+}
+
+[data-testid="stSidebarNav"] ul li a[aria-current="page"] span {
+    color: var(--text-primary) !important;
+    font-weight: 600 !important;
+}
+
+/* ── Brand Header in Sidebar ──────────────────────────────────────────────── */
+.sidebar-brand {
+    padding: 0.75rem 0 0.85rem 0;
+    border-bottom: 1px solid var(--border-subtle);
+    margin-bottom: 1rem;
+}
+
+.sidebar-brand-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sidebar-brand-title span {
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
+.sidebar-brand-sub {
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 3px;
+}
+
+.sidebar-section-label {
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent-gold);
+    margin: 0.75rem 0 0.5rem 0;
+}
+
+/* ── Institutional Page Header ────────────────────────────────────────────── */
+.inst-header {
+    background: linear-gradient(180deg, rgba(19, 28, 46, 0.65) 0%, rgba(15, 22, 35, 0.35) 100%);
+    border: 1px solid var(--border-subtle);
+    border-left: 3px solid var(--accent-gold);
+    border-radius: var(--radius-md);
+    padding: 1.35rem 1.75rem;
+    margin-bottom: 1.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.inst-header-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--accent-gold);
+    margin-bottom: 0.35rem;
+}
+
+.inst-header-title {
+    font-size: 1.55rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.inst-header-subtitle {
+    font-size: 0.86rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+    margin-top: 0.35rem;
+}
+
+.inst-header-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    color: var(--text-secondary);
+    background: var(--bg-primary);
+    border: 1px solid var(--border-subtle);
+    padding: 0.35rem 0.75rem;
+    border-radius: var(--radius-sm);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/* ── KPI Metric Cards ─────────────────────────────────────────────────────── */
+[data-testid="metric-container"] {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-top: 2px solid #26354D;
+    border-radius: var(--radius-md);
+    padding: 1.1rem 1.25rem !important;
+    transition: border-color var(--transition-fast), transform var(--transition-fast), background-color var(--transition-fast);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+[data-testid="metric-container"]:hover {
+    border-color: var(--border-focus);
+    border-top-color: var(--accent-gold);
+    background-color: var(--bg-surface);
+}
+
+[data-testid="metric-container"] [data-testid="stMetricLabel"] {
+    color: var(--text-secondary) !important;
+    font-size: 0.7rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.1em !important;
+    margin-bottom: 0.25rem !important;
+}
+
+[data-testid="metric-container"] [data-testid="stMetricValue"] {
+    font-family: 'JetBrains Mono', 'Inter', monospace !important;
+    font-variant-numeric: tabular-nums !important;
+    color: var(--text-primary) !important;
+    font-size: 1.38rem !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.02em !important;
+}
+
+[data-testid="metric-container"] [data-testid="stMetricDelta"] {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 0.72rem !important;
+    font-weight: 500 !important;
+}
+
+/* ── Institutional Panels & Cards ─────────────────────────────────────────── */
+.inst-card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    transition: border-color var(--transition-fast);
+}
+
+.inst-card:hover {
+    border-color: var(--border-focus);
+}
+
+.inst-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-subtle);
+    padding-bottom: 0.65rem;
+    margin-bottom: 0.85rem;
+}
+
+.inst-card-title {
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-primary);
+}
+
+.inst-card-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.66rem;
+    color: var(--accent-gold);
+    background: rgba(197, 160, 89, 0.1);
+    border: 1px solid rgba(197, 160, 89, 0.3);
+    padding: 2px 8px;
+    border-radius: var(--radius-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+/* ── Section Headers ──────────────────────────────────────────────────────── */
+.section-title {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--accent-gold);
+    margin-bottom: 0.5rem;
+}
+
+h1, h2, h3 {
+    letter-spacing: -0.015em !important;
+    font-weight: 600 !important;
+    color: var(--text-primary) !important;
+}
+
+h2, [data-testid="stSubheader"] {
+    font-size: 1.05rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.06em !important;
+    color: var(--text-primary) !important;
+    border-bottom: 1px solid var(--border-subtle);
+    padding-bottom: 0.45rem;
+    margin-top: 1.25rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* ── Inputs & Form Controls ───────────────────────────────────────────────── */
+[data-testid="stNumberInput"] input,
+[data-testid="stTextInput"] input,
+[data-testid="stDateInput"] input,
+[data-testid="stSelectbox"] > div > div,
+textarea {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-subtle) !important;
+    border-radius: var(--radius-sm) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 0.86rem !important;
+    transition: border-color var(--transition-fast);
+}
+
+[data-testid="stNumberInput"] input {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-variant-numeric: tabular-nums;
+}
+
+[data-testid="stNumberInput"] input:focus,
+[data-testid="stTextInput"] input:focus,
+textarea:focus {
+    border-color: var(--accent-gold) !important;
+    box-shadow: 0 0 0 1px rgba(197, 160, 89, 0.25) !important;
+}
+
+/* ── Buttons ──────────────────────────────────────────────────────────────── */
+[data-testid="stButton"] > button,
+[data-testid="stFormSubmitButton"] > button,
+[data-testid="stDownloadButton"] > button {
+    background-color: var(--bg-surface) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-focus) !important;
+    border-radius: var(--radius-sm) !important;
+    font-size: 0.78rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+    padding: 0.55rem 1.1rem !important;
+    transition: all var(--transition-fast) !important;
+}
+
+[data-testid="stButton"] > button:hover,
+[data-testid="stFormSubmitButton"] > button:hover,
+[data-testid="stDownloadButton"] > button:hover {
+    background-color: var(--bg-elevated) !important;
+    border-color: var(--accent-gold) !important;
+    color: var(--accent-gold-light) !important;
+}
+
+[data-testid="stButton"] > button[kind="primary"],
+[data-testid="stFormSubmitButton"] > button[kind="primary"] {
+    background-color: var(--accent-gold) !important;
+    color: #080B12 !important;
+    border: 1px solid var(--accent-gold) !important;
+    font-weight: 700 !important;
+}
+
+[data-testid="stButton"] > button[kind="primary"]:hover,
+[data-testid="stFormSubmitButton"] > button[kind="primary"]:hover {
+    background-color: var(--accent-gold-light) !important;
+    border-color: var(--accent-gold-light) !important;
+    color: #080B12 !important;
+}
+
+/* ── Page Links (Navigation Cards) ────────────────────────────────────────── */
+[data-testid="stPageLink-NavLink"] {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid var(--border-subtle) !important;
+    border-left: 2px solid var(--border-focus) !important;
+    border-radius: var(--radius-sm) !important;
+    padding: 0.65rem 0.9rem !important;
+    transition: all var(--transition-fast) !important;
+}
+
+[data-testid="stPageLink-NavLink"]:hover {
+    background-color: var(--bg-surface) !important;
+    border-color: var(--border-focus) !important;
+    border-left-color: var(--accent-gold) !important;
+}
+
+[data-testid="stPageLink-NavLink"] p {
+    font-size: 0.78rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.04em !important;
+    text-transform: uppercase;
+    color: var(--text-primary) !important;
+}
+
+/* ── Tabs ─────────────────────────────────────────────────────────────────── */
+[data-testid="stTabs"] [data-baseweb="tab-list"] {
+    gap: 1.5rem;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+[data-testid="stTabs"] [role="tab"] {
+    color: var(--text-secondary) !important;
+    font-size: 0.78rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.08em !important;
+    padding: 0.65rem 0.25rem !important;
+}
+
+[data-testid="stTabs"] [role="tab"][aria-selected="true"] {
+    color: var(--accent-gold) !important;
+    border-bottom: 2px solid var(--accent-gold) !important;
+}
+
+/* ── DataFrames & Financial Tables ────────────────────────────────────────── */
+[data-testid="stDataFrame"] {
+    border: 1px solid var(--border-subtle) !important;
+    border-radius: var(--radius-md) !important;
+    overflow: hidden;
+}
+
+/* ── Expanders & Forms ────────────────────────────────────────────────────── */
+[data-testid="stExpander"] {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid var(--border-subtle) !important;
+    border-radius: var(--radius-md) !important;
+}
+
+[data-testid="stExpander"] summary p {
+    font-size: 0.84rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.02em;
+    color: var(--text-primary) !important;
+}
+
+[data-testid="stForm"] {
+    background-color: var(--bg-secondary) !important;
+    border: 1px solid var(--border-subtle) !important;
+    border-radius: var(--radius-md) !important;
+    padding: 1.25rem !important;
+}
+
+/* ── Dividers ─────────────────────────────────────────────────────────────── */
+hr {
+    border-color: var(--border-subtle) !important;
+    margin: 1.5rem 0 !important;
+}
+
+/* ── Status Badges & Institutional Callouts ───────────────────────────────── */
+.badge-pos { color: var(--status-pos); font-weight: 600; font-family: 'JetBrains Mono', monospace; }
+.badge-neg { color: var(--status-neg); font-weight: 600; font-family: 'JetBrains Mono', monospace; }
+.badge-neu { color: var(--accent-gold); font-weight: 600; font-family: 'JetBrains Mono', monospace; }
+
+.alert-box {
+    padding: 0.9rem 1.15rem;
+    border-radius: var(--radius-sm);
+    margin: 0.65rem 0;
+    font-size: 0.84rem;
+    line-height: 1.55;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+}
+
+.alert-success {
+    border-left: 3px solid var(--status-pos);
+    color: #D1FAE5;
+}
+
+.alert-danger {
+    border-left: 3px solid var(--status-neg);
+    color: #FEE2E2;
+}
+
+.alert-warning {
+    border-left: 3px solid var(--accent-gold);
+    color: #F1F5F9;
+}

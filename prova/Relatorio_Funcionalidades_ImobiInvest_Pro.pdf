@@ -1,0 +1,203 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 7342 >>
+stream
+0.039 0.055 0.090 rg 36.00 725.00 523.00 82.00 re f
+0.773 0.627 0.349 rg 36.00 722.00 523.00 3.00 re f
+BT /F3 8.5 Tf 0.773 0.627 0.349 rg 52.00 784.00 Td (IMOBIINVEST PRO  //  INSTITUTIONAL REAL ESTATE ANALYTICS) Tj ET
+BT /F2 15.5 Tf 0.973 0.980 0.988 rg 52.00 760.00 Td (Relat\363rio de Arquitetura, Funcionalidades e Motor Num\351rico) Tj ET
+BT /F1 9.5 Tf 0.580 0.639 0.722 rg 52.00 740.00 Td (Plataforma Corporativa de Viabilidade Imobili\341ria e Modelagem Quantitativa em Python) Tj ET
+BT /F2 11.0 Tf 0.039 0.055 0.090 rg 36.00 696.00 Td (01. VIS\303O EXECUTIVA E PROBLEMA REAL RESOLVIDO) Tj ET
+1.20 w 0.039 0.055 0.090 RG 36.00 691.00 m 559.00 691.00 l S
+BT /F1 9.3 Tf 0.120 0.160 0.230 rg 36.00 674.00 Td (O ImobiInvest Pro \351 uma plataforma institucional desenvolvida em Python voltada ao mercado de) Tj ET
+BT /F1 9.3 Tf 0.120 0.160 0.230 rg 36.00 660.50 Td (Finan\347as Imobili\341rias \(PropTech\). O sistema soluciona o problema real da tomada de decis\343o na) Tj ET
+BT /F1 9.3 Tf 0.120 0.160 0.230 rg 36.00 647.00 Td (aloca\347\343o de capital em ativos imobili\341rios, abrangendo aquisi\347\365es para renda locat\355cia \(Income) Tj ET
+BT /F1 9.3 Tf 0.120 0.160 0.230 rg 36.00 633.50 Td (Valuation\), opera\347\365es de compra, reforma e revenda \(House Flipping\), estrutura\347\343o de d\355vida \(SAC e) Tj ET
+BT /F1 9.3 Tf 0.120 0.160 0.230 rg 36.00 620.00 Td (Tabela PRICE\), determina\347\343o de fronteiras de equil\355brio \(Break-Even\) e an\341lise de risco \(Cen\341rios) Tj ET
+BT /F1 9.3 Tf 0.120 0.160 0.230 rg 36.00 606.50 Td (e Sensibilidade\).) Tj ET
+0.965 0.973 0.984 rg 36.00 539.00 523.00 52.00 re f
+0.70 w 0.796 0.835 0.882 RG 36.00 539.00 523.00 52.00 re S
+0.773 0.627 0.349 rg 36.00 539.00 4.00 52.00 re f
+BT /F2 9.0 Tf 0.039 0.055 0.090 rg 48.00 573.00 Td (CONFORMIDADE COM A REGRA DE OURO \227 ENGINE MATEM\301TICA PROGRAMADA DO ZERO) Tj ET
+BT /F1 8.8 Tf 0.120 0.160 0.230 rg 48.00 559.00 Td (Enquanto a interface e os gr\341ficos utilizam Streamlit e Plotly, toda a engine matem\341tica) Tj ET
+BT /F1 8.8 Tf 0.120 0.160 0.230 rg 48.00 546.50 Td (\(utils/numericos.py e utils/calculos.py\) foi implementada 100% do zero em Python puro, sem uso) Tj ET
+BT /F1 8.8 Tf 0.120 0.160 0.230 rg 48.00 534.00 Td (de bibliotecas prontas de c\341lculo num\351rico ou financeiro \(zero numpy/scipy\).) Tj ET
+BT /F2 11.0 Tf 0.039 0.055 0.090 rg 36.00 513.00 Td (02. MOTOR DE M\311TODOS NUM\311RICOS PROPRIET\301RIOS \(utils/numericos.py\)) Tj ET
+1.20 w 0.039 0.055 0.090 RG 36.00 508.00 m 559.00 508.00 l S
+0.973 0.980 0.988 rg 36.00 419.00 523.00 78.00 re f
+0.60 w 0.796 0.835 0.882 RG 36.00 419.00 523.00 78.00 re S
+0.039 0.055 0.090 rg 36.00 419.00 3.50 78.00 re f
+BT /F2 9.5 Tf 0.039 0.055 0.090 rg 46.00 481.00 Td (01. M\351todo de Newton-Raphson  |  Converg\352ncia Quadr\341tica) Tj ET
+BT /F3 8.2 Tf 0.550 0.400 0.080 rg 46.00 468.00 Td (F\363rmula de Itera\347\343o:  x_{n+1} = x_n - f\(x_n\) / f'\(x_n\)) Tj ET
+BT /F1 8.6 Tf 0.120 0.160 0.230 rg 46.00 454.00 Td (Resolve a equa\347\343o polinomial n\343o-linear de fluxo de caixa descontado de at\351 360 graus: VPL\(r\) =) Tj ET
+BT /F1 8.6 Tf 0.120 0.160 0.230 rg 46.00 442.20 Td (Soma[ FC_t / \(1+r\)^t ] = 0 utilizando a derivada anal\355tica exata VPL'\(r\) = Soma[ -t * FC_t /) Tj ET
+BT /F1 8.6 Tf 0.120 0.160 0.230 rg 46.00 430.40 Td (\(1+r\)^\(t+1\) ]. Atua como motor principal no c\341lculo da Taxa Interna de Retorno \(TIR\) na loca\347\343o) Tj ET
+BT /F1 8.6 Tf 0.120 0.160 0.230 rg 46.00 418.60 Td (e no c\341lculo do Custo Efetivo Total \(CET\) nos financiamentos SAC e PRICE.) Tj ET
+0.973 0.980 0.988 rg 36.00 333.00 523.00 78.00 re f
+0.60 w 0.796 0.835 0.882 RG 36.00 333.00 523.00 78.00 re S
+0.039 0.055 0.090 rg 36.00 333.00 3.50 78.00 re f
+BT /F2 9.5 Tf 0.039 0.055 0.090 rg 46.00 395.00 Td (02. M\351todo da Bisse\347\343o  |  Converg\352ncia Linear Garantida \(Teorema de Bolzano\)) Tj ET
+BT /F3 8.2 Tf 0.550 0.400 0.080 rg 46.00 382.00 Td (F\363rmula de Parti\347\343o:  m = \(a + b\) / 2   |   Cota de Erro:  |e_n| <= \(b_0 - a_0\) / 2^n) Tj ET
+BT /F1 8.6 Tf 0.120 0.160 0.230 rg 46.00 368.00 Td (Localiza ra\355zes garantidas em intervalos com mudan\347a de sinal f\(a\)*f\(b\) < 0. Atua na) Tj ET
+BT /F1 8.6 Tf 0.120 0.160 0.230 rg 46.00 356.20 Td (determina\347\343o dos 4 pontos de Break-Even de Loca\347\343o \(Operacional, Financeiro, Econ\364mico VPL=0 e) Tj ET
+BT /F1 8.6 Tf 0.120 0.160 0.230 rg 46.00 344.40 Td (Taxa de Ocupa\347\343o Cr\355tica\) e na busca do Pre\347o M\355nimo de Sa\355da \(Break-Even de Venda\) nas) Tj ET
+BT /F1 8.6 Tf 0.120 0.160 0.230 rg 46.00 332.60 Td (opera\347\365es de Compra, Reforma e Revenda \(Flip\).) Tj ET
+0.973 0.980 0.988 rg 36.00 247.00 523.00 78.00 re f
+0.60 w 0.796 0.835 0.882 RG 36.00 247.00 523.00 78.00 re S
+0.039 0.055 0.090 rg 36.00 247.00 3.50 78.00 re f
+BT /F2 9.5 Tf 0.039 0.055 0.090 rg 46.00 309.00 Td (03. Regra dos Trap\351zios Composta  |  Quadratura Num\351rica de Ordem O\(h^2\)) Tj ET
+BT /F3 8.2 Tf 0.550 0.400 0.080 rg 46.00 296.00 Td (F\363rmula Composta:  Integral[a,b] f\(t\)dt  ~=  \(h/2\) * [ f\(t_0\) + 2*Soma\(f\(t_i\)\) + f\(t_n\) ]) Tj ET
+BT /F1 8.6 Tf 0.120 0.160 0.230 rg 46.00 282.00 Td (Integra numericamente o fluxo de caixa cont\355nuo descontado VPL_cont = -I_0 + Integral_0^T [) Tj ET
+BT /F1 8.6 Tf 0.120 0.160 0.230 rg 46.00 270.20 Td (FC\(t\) * e^\(-delta*t\) dt ] + VR*e^\(-delta*T\), onde delta = ln\(1 + TMA\) \351 a taxa instant\342nea de) Tj ET
+BT /F1 8.6 Tf 0.120 0.160 0.230 rg 46.00 258.40 Td (desconto. Permite confrontar a modelagem discreta mensal com a acumula\347\343o cont\355nua de renda ao) Tj ET
+BT /F1 8.6 Tf 0.120 0.160 0.230 rg 46.00 246.60 Td (longo do horizonte do investimento.) Tj ET
+BT /F2 11.0 Tf 0.039 0.055 0.090 rg 36.00 225.00 Td (03. ARQUITETURA T\311CNICA DO PROJETO) Tj ET
+1.20 w 0.039 0.055 0.090 RG 36.00 220.00 m 559.00 220.00 l S
+BT /F3 8.5 Tf 0.039 0.055 0.090 rg 40.00 207.00 Td (app.py) Tj ET
+BT /F1 8.6 Tf 0.150 0.200 0.280 rg 165.00 207.00 Td (Entrypoint principal executivo, vis\343o consolidada do portf\363lio e simulador num\351rico ao vivo.) Tj ET
+BT /F3 8.5 Tf 0.039 0.055 0.090 rg 40.00 193.00 Td (utils/numericos.py) Tj ET
+BT /F1 8.6 Tf 0.150 0.200 0.280 rg 165.00 193.00 Td (Implementa\347\343o pura do zero de Bisse\347\343o, Newton-Raphson, Trap\351zios, VPL, dVPL, TIR e Payback.) Tj ET
+BT /F3 8.5 Tf 0.039 0.055 0.090 rg 40.00 179.00 Td (utils/calculos.py) Tj ET
+BT /F1 8.6 Tf 0.150 0.200 0.280 rg 165.00 179.00 Td (Regras financeiras imobili\341rias: Loca\347\343o, Flip, Break-Even, SAC/PRICE, CET, Cen\341rios e Sensibilidade.) Tj ET
+BT /F3 8.5 Tf 0.039 0.055 0.090 rg 40.00 165.00 Td (database.py) Tj ET
+BT /F1 8.6 Tf 0.150 0.200 0.280 rg 165.00 165.00 Td (Persist\352ncia relacional em SQLite \(imobiinvest.db\), CRUD de ativos e hist\363rico JSON de simula\347\365es.) Tj ET
+BT /F3 8.5 Tf 0.039 0.055 0.090 rg 40.00 151.00 Td (utils/ui.py & style.css) Tj ET
+BT /F1 8.6 Tf 0.150 0.200 0.280 rg 165.00 151.00 Td (Sistema de design institucional \(azul-marinho #0A0E17, dourado #C5A059 e gr\341ficos padronizados\).) Tj ET
+0.70 w 0.796 0.835 0.882 RG 36.00 42.00 m 559.00 42.00 l S
+BT /F3 7.5 Tf 0.400 0.450 0.520 rg 36.00 30.00 Td (IMOBIINVEST PRO \227 DOCUMENTA\307\303O DE ARQUITETURA E FUNCIONALIDADES) Tj ET
+BT /F3 7.5 Tf 0.400 0.450 0.520 rg 500.00 30.00 Td (P\301GINA 1 DE 2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 9880 >>
+stream
+0.039 0.055 0.090 rg 36.00 775.00 523.00 32.00 re f
+0.773 0.627 0.349 rg 36.00 773.00 523.00 2.00 re f
+BT /F3 8.5 Tf 0.773 0.627 0.349 rg 48.00 787.00 Td (IMOBIINVEST PRO  //  ESPECIFICA\307\303O DOS M\323DULOS ANAL\315TICOS \(SYS-CORE & MOD-01 A MOD-10\)) Tj ET
+0.973 0.980 0.988 rg 36.00 702.00 523.00 55.00 re f
+0.50 w 0.820 0.850 0.900 RG 36.00 702.00 523.00 55.00 re S
+0.773 0.627 0.349 rg 36.00 702.00 3.00 55.00 re f
+BT /F2 8.9 Tf 0.039 0.055 0.090 rg 45.00 742.00 Td (SYS-CORE  |  Terminal Principal e Simulador Instant\342neo \(app.py\)) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 730.00 Td (Apresenta os KPIs globais do portf\363lio \(Ativos Sob Gest\343o, Capital Alocado, Ticket M\351dio e \301rea) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 719.00 Td (Bruta Loc\341vel\), detalha os tr\352s m\351todos num\351ricos propriet\341rios e disponibiliza um Simulador) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 708.00 Td (Executivo em Tempo Real na tela inicial.) Tj ET
+0.973 0.980 0.988 rg 36.00 640.00 523.00 55.00 re f
+0.50 w 0.820 0.850 0.900 RG 36.00 640.00 523.00 55.00 re S
+0.773 0.627 0.349 rg 36.00 640.00 3.00 55.00 re f
+BT /F2 8.9 Tf 0.039 0.055 0.090 rg 45.00 680.00 Td (MOD-01  |  Dashboard Executivo de Portf\363lio \(pages/1_Dashboard.py\)) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 668.00 Td (Consolida os indicadores patrimoniais da carteira em tr\352s abas interativas: \(1\) Aloca\347\343o Setorial) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 657.00 Td (por Tipologia \(gr\341fico de rosca e quadro anal\355tico\), \(2\) Exposi\347\343o de Capital por Ativo \(ranking) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 646.00 Td (decrescente de CAPEX\) e \(3\) Evolu\347\343o Hist\363rica do Capital Alocado acumulado por compet\352ncia mensal.) Tj ET
+0.973 0.980 0.988 rg 36.00 578.00 523.00 55.00 re f
+0.50 w 0.820 0.850 0.900 RG 36.00 578.00 523.00 55.00 re S
+0.773 0.627 0.349 rg 36.00 578.00 3.00 55.00 re f
+BT /F2 8.9 Tf 0.039 0.055 0.090 rg 45.00 618.00 Td (MOD-02  |  Gest\343o de Portf\363lio e Cadastro de Ativos \(pages/2_Empreendimentos.py\)) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 606.00 Td (Sistema CRUD completo em SQLite \(cadastrar, editar inline, duplicar e excluir com confirma\347\343o\).) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 595.00 Td (Registra \341rea privativa, cidade, data de aquisi\347\343o, memorando t\351cnico e estrutura de CAPEX em 6) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 584.00 Td (rubricas \(Aquisi\347\343o, Reforma/Retrofit, Documenta\347\343o, ITBI, Corretagem e Custos Acess\363rios\).) Tj ET
+0.973 0.980 0.988 rg 36.00 516.00 523.00 55.00 re f
+0.50 w 0.820 0.850 0.900 RG 36.00 516.00 523.00 55.00 re S
+0.773 0.627 0.349 rg 36.00 516.00 3.00 55.00 re f
+BT /F2 8.9 Tf 0.039 0.055 0.090 rg 45.00 556.00 Td (MOD-03  |  Simulador de Renda Locat\355cia \227 Income Valuation \(pages/3_Simulador_Locacao.py\)) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 544.00 Td (Projeta o fluxo operacional mensal com vac\342ncia, OPEX, reajuste anual e valor residual. Calcula VPL) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 533.00 Td (Discreto, VPL Cont\355nuo \(via Regra dos Trap\351zios\), TIR Anual/Mensal \(via Newton-Raphson\), Payback) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 522.00 Td (Simples/Descontado e ROI. Possui aba de Auditoria Num\351rica \(tabela de itera\347\365es de Newton-Raphson e) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 511.00 Td (gr\341fico trapezoidal\) e salva no ativo.) Tj ET
+0.973 0.980 0.988 rg 36.00 454.00 523.00 55.00 re f
+0.50 w 0.820 0.850 0.900 RG 36.00 454.00 523.00 55.00 re S
+0.773 0.627 0.349 rg 36.00 454.00 3.00 55.00 re f
+BT /F2 8.9 Tf 0.039 0.055 0.090 rg 45.00 494.00 Td (MOD-04  |  Compra, Reforma e Revenda \227 House Flipping \(pages/4_Compra_Reforma_Revenda.py\)) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 482.00 Td (Analisa opera\347\365es de ganho de capital na revenda de im\363veis reformados, deduzindo comiss\343o de) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 471.00 Td (corretagem e Imposto de Renda sobre lucro bruto. Exibe gr\341fico Waterfall \(cascata\), curva de lucro) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 460.00 Td (l\355quido vs. pre\347o de venda e calcula o Pre\347o M\355nimo de Sa\355da \(Break-Even\) via M\351todo da Bisse\347\343o) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 449.00 Td (com tabela de auditoria de itera\347\365es.) Tj ET
+0.973 0.980 0.988 rg 36.00 392.00 523.00 55.00 re f
+0.50 w 0.820 0.850 0.900 RG 36.00 392.00 523.00 55.00 re S
+0.773 0.627 0.349 rg 36.00 392.00 3.00 55.00 re f
+BT /F2 8.9 Tf 0.039 0.055 0.090 rg 45.00 432.00 Td (MOD-05  |  Fronteiras de Equil\355brio \227 Break-Even Analysis \(pages/5_Break_Even.py\)) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 420.00 Td (Aplica o M\351todo da Bisse\347\343o para encontrar 4 fronteiras cr\355ticas: \(1\) Aluguel M\355nimo Operacional) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 409.00 Td (\(cobre OPEX e vac\342ncia\), \(2\) Aluguel M\355nimo Financeiro \(payback simples igual ao horizonte\), \(3\)) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 398.00 Td (Aluguel M\355nimo Econ\364mico \(zera o VPL na TMA\) e \(4\) Taxa de Ocupa\347\343o Cr\355tica \(ocupa\347\343o m\355nima para) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 387.00 Td (VPL >= 0\), com gr\341ficos e tabelas das itera\347\365es num\351ricas.) Tj ET
+0.973 0.980 0.988 rg 36.00 330.00 523.00 55.00 re f
+0.50 w 0.820 0.850 0.900 RG 36.00 330.00 523.00 55.00 re S
+0.773 0.627 0.349 rg 36.00 330.00 3.00 55.00 re f
+BT /F2 8.9 Tf 0.039 0.055 0.090 rg 45.00 370.00 Td (MOD-06  |  Estrutura\347\343o de Financiamento SAC e PRICE \(pages/6_Financiamento.py\)) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 358.00 Td (Compara os sistemas de amortiza\347\343o SAC e PRICE lado a lado ou individualmente. Gera gr\341ficos de) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 347.00 Td (evolu\347\343o das presta\347\365es, curva de saldo devedor, economia total de juros, tabela de amortiza\347\343o) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 336.00 Td (paginada e calcula o CET \(Custo Efetivo Total\) anual e mensal via M\351todo de Newton-Raphson) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 325.00 Td (incluindo tarifas iniciais e seguros mensais \(MIP/DFI\).) Tj ET
+0.973 0.980 0.988 rg 36.00 268.00 523.00 55.00 re f
+0.50 w 0.820 0.850 0.900 RG 36.00 268.00 523.00 55.00 re S
+0.773 0.627 0.349 rg 36.00 268.00 3.00 55.00 re f
+BT /F2 8.9 Tf 0.039 0.055 0.090 rg 45.00 308.00 Td (MOD-07  |  Matriz de Cen\341rios Macroecon\364micos \(pages/7_Cenarios.py\)) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 296.00 Td (Submete o investimento a stress testing simult\342neo nos cen\341rios Pessimista, Realista e Otimista com) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 285.00 Td (fatores multiplicadores ajust\341veis para aluguel, vac\342ncia, OPEX e TMA. Exibe tabela comparativa,) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 274.00 Td (gr\341ficos de VPL, ROI e TIR Anual, trajet\363ria de caixa acumulado e c\341lculo do spread de risco entre) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 263.00 Td (os cen\341rios.) Tj ET
+0.973 0.980 0.988 rg 36.00 206.00 523.00 55.00 re f
+0.50 w 0.820 0.850 0.900 RG 36.00 206.00 523.00 55.00 re S
+0.773 0.627 0.349 rg 36.00 206.00 3.00 55.00 re f
+BT /F2 8.9 Tf 0.039 0.055 0.090 rg 45.00 246.00 Td (MOD-08  |  An\341lise de Sensibilidade e Diagrama de Tornado \(pages/8_Sensibilidade.py\)) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 234.00 Td (Aplica choques sim\351tricos univariados \(\2615% a \26150% ceteris paribus\) em 7 vari\341veis do modelo,) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 223.00 Td (gerando o Diagrama de Tornado ordenado por amplitude de impacto no VPL, ranking de elasticidade) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 212.00 Td (relativa, sparklines individuais e diagn\363stico de risco.) Tj ET
+0.973 0.980 0.988 rg 36.00 144.00 523.00 55.00 re f
+0.50 w 0.820 0.850 0.900 RG 36.00 144.00 523.00 55.00 re S
+0.773 0.627 0.349 rg 36.00 144.00 3.00 55.00 re f
+BT /F2 8.9 Tf 0.039 0.055 0.090 rg 45.00 184.00 Td (MOD-09  |  Laborat\363rio Num\351rico e Auditoria Algor\355tmica \(pages/9_Laboratorio_Numerico.py\)) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 172.00 Td (Ambiente interativo de valida\347\343o matem\341tica dos 3 m\351todos num\351ricos em fun\347\365es arbitr\341rias:) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 161.00 Td (contra\347\343o do intervalo [a,b] na Bisse\347\343o, retas tangentes e benchmark de converg\352ncia quadr\341tica) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 150.00 Td (vs. linear no Newton-Raphson, e malha trapezoidal com curva logar\355tmica de decaimento do erro) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 139.00 Td (O\(1/n^2\) na Regra dos Trap\351zios.) Tj ET
+0.973 0.980 0.988 rg 36.00 82.00 523.00 55.00 re f
+0.50 w 0.820 0.850 0.900 RG 36.00 82.00 523.00 55.00 re S
+0.773 0.627 0.349 rg 36.00 82.00 3.00 55.00 re f
+BT /F2 8.9 Tf 0.039 0.055 0.090 rg 45.00 122.00 Td (MOD-10  |  Emiss\343o de Dossi\352 e Relat\363rios Executivos \(pages/10_Relatorios.py\)) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 110.00 Td (Compila e exporta um Investment Memorandum institucional em HTML para qualquer empreendimento) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 99.00 Td (cadastrado, consolidando ficha cadastral, quadro de CAPEX, memorando t\351cnico e todas as simula\347\365es) Tj ET
+BT /F1 8.2 Tf 0.120 0.160 0.230 rg 45.00 88.00 Td (financeiras arquivadas no ativo.) Tj ET
+0.70 w 0.796 0.835 0.882 RG 36.00 42.00 m 559.00 42.00 l S
+BT /F3 7.5 Tf 0.400 0.450 0.520 rg 36.00 30.00 Td (IMOBIINVEST PRO \227 EXECU\307\303O: cd C:\\Users\\richa\\Downloads\\prova && streamlit run app.py) Tj ET
+BT /F3 7.5 Tf 0.400 0.450 0.520 rg 500.00 30.00 Td (P\301GINA 2 DE 2) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000224 00000 n 
+0000000326 00000 n 
+0000000426 00000 n 
+0000007820 00000 n 
+0000007972 00000 n 
+0000017904 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+18056
+%%EOF
